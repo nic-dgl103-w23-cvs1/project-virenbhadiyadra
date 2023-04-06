@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/6b52140ca6.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <div class="logo">
+                <a href="./index.html"><h2>Atlas</h2>
+                <p>Celebrating 25 years</p></a>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="list">
+                
+                <li class="list-item"><a href="./menu.html">menu</a></li>
+                <li class="list-item"><a href="./reservation.html">Reservation</a></li>
+                <li class="list-item"><a href="./gifts.html">gift</a></li>
+                <li class="list-item"><a href="./contactus.html">contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main-image">
+        <div class="bg-image reservation-bg">
+            <img src="./images/download-6.jpg" alt="main">
+        </div>
+        
+       
+    </section>
+    <section class="gift section-padding">
+        <div class="gift-heading">
+            <h1>Gift Certificates</h1>
+
+        </div>
+        <div class="gift-items">
+            <div class="image-gift">
+                <img src="./images/Atlas-Cafe-Gift-Certificate.jpg" alt="gift">
+            </div>
+            <div class="gift-info">
+                <p class="purchase">Purchasing a gift certificate this year is going to be easier than ever! </p>
+                <h2>How to Purchase a Gift Certificate</h2>
+                <p>Please email us at eat@atlascafe.ca and include your phone number so we can call you to assist in your gift giving.</p>
+                <p>We can post your gift certificate to any destination for you or alternatively, we have a secure pick-up box at our Host station.</p>
+                <p>We truly appreciate your business, as your purchase supports a locally owned and operated family business.</p>
+                <h3>CHEERS</h3>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-main">
+            <ul class="order">
+                <h4>Order</h4>
+                <li>Deals</li>
+                <li>pizza</li>
+                <li>Burger</li>
+                <li>Sides</li>
+            </ul>
+            <ul class="help">
+                <h4>Help & Service</h4>
+                <li>Location</li>
+                <li>Contact Us</li>
+                <li>Franchise</li>
+                <li>FAQs & Help</li>
+                <li>Gift Cards</li>
+                <li>Gift Careers</li>
+            </ul>
+            <ul class="Nutrition">
+                <h4>Nutrition</h4>
+                <li>Nutrition Information</li>
+                <li>Food Allergen & Sensitivity</li>
+                <li>Ingredient Listing</li>
+                <li>Gluten Free FAQ</li>
+                
+            </ul>
+            <ul class="Policies">
+                <h4>Privacy</h4>
+                <li>Terms & Conditions</li>
+                <li>Responsible disclosure</li>
+                <li>Cookies and Ads</li>
+                
+            </ul>
+        </div>
+    </footer>
+    <script>
+        const hamBurger =document.getElementsByClassName('hamburger')[0];
+        const navList=document.getElementsByClassName('list-item');
+        hamBurger.addEventListener('click',function(){
+         for(var i=0; i < navList.length; i++)
+         navList[i].classList.toggle('active');
+        });
+     </script>
+    </body>
+    </html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/6b52140ca6.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <div class="logo">
+                <a href="./index.html"><h2>Atlas</h2>
+                <p>Celebrating 25 years</p></a>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="list">
+                
+                <li class="list-item"><a href="./menu.html">menu</a></li>
+                <li class="list-item"><a href="./reservation.html">Reservation</a></li>
+                <li class="list-item"><a href="./gifts.html">gift</a></li>
+                <li class="list-item"><a href="./contactus.html">contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact-us section-padding">
+        <div class="heading-contact">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="contact-item">
+            <div class="container-contactus">
+              <div class="title">
+                <h2>
+                  Contact Us
+                  <hr>
+                </h2>
+              </div>
+              <form class="form" action="/form/submit" method="POST">
+                <label for="name">Name</label>
+                <input class="form-input" type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input class="form-input" type="email" name="email" id="email">
+                <label>Message</label>
+                <textarea class="form-textarea" type="text"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+    </section>
+    <footer>
+        <div class="footer-main">
+            <ul class="order">
+                <h4>Order</h4>
+                <li>Deals</li>
+                <li>pizza</li>
+                <li>Burger</li>
+                <li>Sides</li>
+            </ul>
+            <ul class="help">
+                <h4>Help & Service</h4>
+                <li>Location</li>
+                <li>Contact Us</li>
+                <li>Franchise</li>
+                <li>FAQs & Help</li>
+                <li>Gift Cards</li>
+                <li>Gift Careers</li>
+            </ul>
+            <ul class="Nutrition">
+                <h4>Nutrition</h4>
+                <li>Nutrition Information</li>
+                <li>Food Allergen & Sensitivity</li>
+                <li>Ingredient Listing</li>
+                <li>Gluten Free FAQ</li>
+                
+            </ul>
+            <ul class="Policies">
+                <h4>Privacy</h4>
+                <li>Terms & Conditions</li>
+                <li>Responsible disclosure</li>
+                <li>Cookies and Ads</li>
+                
+            </ul>
+        </div>
+    </footer>
+    <script>
+        const hamBurger =document.getElementsByClassName('hamburger')[0];
+        const navList=document.getElementsByClassName('list-item');
+        hamBurger.addEventListener('click',function(){
+         for(var i=0; i < navList.length; i++)
+         navList[i].classList.toggle('active');
+        });
+     </script>
+    </body>
+    </html>

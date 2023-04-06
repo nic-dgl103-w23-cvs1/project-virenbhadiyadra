@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/6b52140ca6.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <div class="logo">
+                <a href="./index.html"><h2>Atlas</h2>
+                <p>Celebrating 25 years</p></a>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="list">
+                
+                <li class="list-item"><a href="./menu.html">menu</a></li>
+                <li class="list-item"><a href="./reservation.html">Reservation</a></li>
+                <li class="list-item"><a href="./gifts.html">gift</a></li>
+                <li class="list-item"><a href="./contactus.html">contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main-image">
+        <div class="bg-image reservation-bg">
+            <img src="./images/top-view-tasty-breakfast.jpg" alt="main">
+        </div>
+       
+    </section> 
+    <section class="breakfast-menu section-padding">
+        <div class="menu-info">
+        <h1>Breakfast Menu</h1>
+        <h3>Breakfast</h3>
+        <p>(available 8:30am - 12pm Saturday & 8:30am - 2:30pm Sunday)</p>
+        <h5>served with atlas roasted potatoes and fresh fruit</h5>
+        <h5>Tannadice</h5>
+        <p>Poached eggs, toasted english muffin, tannadice farms ham, house hollandaise</p>
+        <h5>Atlas</h5>
+        <p>Poached eggs, toasted english muffin, smoked salmon, capers, house hollandaise</p>
+        <h5>Pesto Mushroom</h5>
+        <p>Poached eggs, toasted english muffin, sauteed mushrooms and arugula in pesto, house hollandaise</p>
+        <h5>Bacon</h5>
+        <p>Poached eggs, toasted english muffin, bacon, tomato, house hollandaise</p>
+        <h5>Goat Cheese</h5>
+        <p>Poached eggs on red pepper polenta, roasted fennel, eggplant, red peppers, goat cheese</p>
+        <h5>Classic</h5>
+        <p>Two eggs, poached or scrambled, chipotle sausage or bacon, caramelized onions, focaccia toast</p>
+        <h5>Avocado Toast</h5>
+        <p>smashed avocado on house made focaccia toast with poached eggs, fresh arugula, feta cheese, pickled red onion</p>
+        <h5>Pulled Pork Breakfast Bowl</h5>
+        <p>House smoked bbq pulled pork, roasted corn, sauteed mushrooms, fresh cilantro, two poached eggs ancho-annatto hollandaise on your choice of firecracker rice* or breakfast potatoes</p>
+        <h5>Atlas Breakfast Bowl</h5>
+        <p>roasted kabocha squash, caramelized onion, sautéed spinach, two poached eggs, ancho annatto hollandaise goats cheese on your choice of firecraker rice* or breakfast potatoes</p>
+        
+    </div>
+    <div class="lunch-dinner">
+        <h1>Lunch and Dinner</h1>
+        <h5>Roasted Bone Marrow</h5>
+        <p>smoked marrow vinaigrette, pickled shallot, cat + crow microgreens , charred bread</p>
+        <h5>Roasted Vancouver Island Parsnips</h5>
+        <p>prosciutto vinaigrette, garlic + preserved lemon aioli, garlic chips, cat & crow microgreens</p>
+        <h5>8oz AAA New York Striploin</h5>
+        <p>roasted potatoes, tonight's dinner vegetables, red wine demi glace</p>
+
+    </div>
+    <div class="order-button">
+        <a href="#">Order Online</a>
+    </div>
+    </section>
+    <footer>
+        <div class="footer-main">
+            <ul class="order">
+                <h4>Order</h4>
+                <li>Deals</li>
+                <li>pizza</li>
+                <li>Burger</li>
+                <li>Sides</li>
+            </ul>
+            <ul class="help">
+                <h4>Help & Service</h4>
+                <li>Location</li>
+                <li>Contact Us</li>
+                <li>Franchise</li>
+                <li>FAQs & Help</li>
+                <li>Gift Cards</li>
+                <li>Gift Careers</li>
+            </ul>
+            <ul class="Nutrition">
+                <h4>Nutrition</h4>
+                <li>Nutrition Information</li>
+                <li>Food Allergen & Sensitivity</li>
+                <li>Ingredient Listing</li>
+                <li>Gluten Free FAQ</li>
+                
+            </ul>
+            <ul class="Policies">
+                <h4>Privacy</h4>
+                <li>Terms & Conditions</li>
+                <li>Responsible disclosure</li>
+                <li>Cookies and Ads</li>
+                
+            </ul>
+        </div>
+    </footer>
+    <script>
+        const hamBurger =document.getElementsByClassName('hamburger')[0];
+        const navList=document.getElementsByClassName('list-item');
+        hamBurger.addEventListener('click',function(){
+         for(var i=0; i < navList.length; i++)
+         navList[i].classList.toggle('active');
+        });
+     </script>
+    </body>
+    </html>

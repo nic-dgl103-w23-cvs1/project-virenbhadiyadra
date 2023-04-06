@@ -1,0 +1,400 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+.section-padding{
+    padding: 50px 0;
+}
+.container{
+    padding: 0 50px;
+}
+.logo{
+    text-transform: uppercase;
+    color: white;
+}
+.logo a{
+    color: white;
+    font-family: 'Lily Script One', cursive;
+    font-size: 1.2rem;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.list li{
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+.list li a{
+    color: white;
+    font-weight: 800;
+}
+.bg-image{
+    position: relative;
+}
+.bg-image img{
+width: 100%;
+}
+.banner{
+    position: absolute;
+    bottom: -220px;
+    color: white;
+    background-color: black;
+    padding: 70px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.7rem;
+}   
+.breakfast-items{
+    
+   
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.info-breakfast{
+    padding: 8%;
+    background-color: black;
+    width: 40%; 
+    color: white;
+    
+  
+}
+.info-breakfast h2{
+    padding-bottom: 20px;
+    font-size: 1.8rem;
+    font-family: 'Lily Script One', cursive;
+    
+}
+.breakfast-image{
+    
+    width: 80%; 
+    z-index: -1;
+    margin-left: -190px;
+}
+.breakfast-image img{
+    width: 600px;
+}
+.visit-flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+.visit-us-info{
+    text-align: center;
+}
+.visit-us-info h2{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding-bottom:10px ;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+.footer-main ul h4{
+    font-size: 1.2rem;
+}
+.footer-main ul li{
+    padding-bottom: 10px;
+}
+.reservation-bg img{
+    height: 80vh;
+}
+.reservation-heading{
+    text-align: center;
+}
+.reservation-heading h1{
+    font-family: 'Secular One', sans-serif;
+    font-size: 2.8rem;
+}
+.reservation-heading p{
+    font-size: 1.2rem;
+    width: 40%;
+    margin: 0 auto;
+}
+.visit-heading{
+    text-align: center;
+}
+
+.visit-heading h1{
+    font-family: 'Secular One', sans-serif;
+    font-size: 2.8rem;
+}
+.visit-heading p{
+    font-size: 1.2rem;
+}
+.map-direction{
+    text-align: center;
+    
+}
+.menu-info{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    width: 40%;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+}
+.menu-info h1{
+    font-size: 2.8rem;
+}
+.menu-info h3{
+    font-size: 2rem;
+}
+.menu-info p{
+    font-size: 1.2rem;
+    /* margin: 0 auto;
+    width: 40%; */
+}
+.menu-info h5{
+    font-size: 1.4rem;
+}
+.lunch-dinner{
+    margin-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+}
+.lunch-dinner h1 {
+    font-size: 2.8rem;
+}
+.lunch-dinner h5{
+    font-size: 1.4rem;
+}
+.lunch-dinner p{
+    font-size: 1.2rem;
+   
+}
+.order-button{
+    padding-top: 50px;
+    text-align: center;
+}
+.order-button a{
+    padding: 20px 30px;
+    background-color:  brown;
+    color: white;
+    border-radius: 10px;
+}
+.gift-heading h1{
+    font-size: 2.8rem;
+    text-align: center;
+    
+}
+.gift-items{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.purchase{
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+.gift-info{
+    width: 50%;
+}
+.gift-info h2{
+    padding-bottom: 20px;
+}
+.gift-info h3{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.heading-contact h1{
+font-size: 2.8rem;
+text-align: center;
+text-transform: uppercase;
+font-family: 'Secular One', sans-serif;
+}
+label {
+    font-family: 'Open Sans' sans-serif;
+    color: #fff;
+    margin: 0;
+  }
+.container-contactus {
+    display: block;
+    border: 8px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 0 0 10px 10px;
+    max-width: 330px;
+    background-color: black;
+  }
+  .title {
+    display: inline-block;
+  }
+  .title h2 {
+    padding: 0 10px 0 0px;
+    margin: 5px 0;
+    color: #FBFBFB;
+  }
+  form {
+    padding: 10px 10px 0 0;
+  }
+  hr {
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    height: 5px;
+    border: 0;
+    background-color: #ffffff;
+  }
+  input,
+  textarea {
+    width: 100%;
+    border: 5px solid #FFFFFF;
+    border-radius: 3px;
+    resize: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 16px;
+    color: #000000;
+  }
+  input[type="text"],
+  input[type="email"] {
+    padding: 0 1px;
+    height: 40px;
+    width: 100%;
+  }
+  input:focus,
+  textarea:focus {
+    outline: none;
+  }
+  .form-input {
+    margin: 5px 0 10px 0;
+  }
+  .form-textarea {
+    margin: 5px 0;
+    width: 100%;
+    height: 100px;
+  }
+  input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border: 0;
+    color: #fff;
+    border: 5px solid black;
+    border-radius: 8px;
+    margin: 10px 0 0 0;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 22px;
+  }
+  .hamburger{
+    display: none;
+  }
+
+  @media (max-width: 600px){
+    .footer-main{
+        flex-direction: column;
+    }
+    .map-direction iframe{
+        width: 200px;
+    }
+    .reservation-heading h1{
+        font-size: 1.9rem;
+    }
+    .reservation-heading h2{
+        font-size: 1.2rem;
+    }
+    .reservation-heading p{
+        width: 100%;
+    }
+    .menu-info{
+        width: 100%;
+        padding: unset;
+    }
+    .menu-info h1{
+        font-size: 1.5rem;
+    }
+    .lunch-dinner{
+        width: 100% ;
+        padding: unset;
+    }
+    .lunch-dinner h1{
+        font-size: 1.9rem;
+    }
+    .gift-items{
+        flex-direction: column;
+
+    }
+    .gift-info{
+        width: 100%;
+    }
+  }
+  @media (max-width: 900px){
+    .header-nav{
+        flex-wrap: wrap;
+    }
+    .list{
+        flex-wrap: wrap;
+
+    }
+    .hamburger{
+        display: block !important;
+        color: white;
+    }
+    .list-item{
+        display: none;
+        width: 100%;
+        background-color: black;
+        text-align: center;
+        height: 10vh;
+        top: 150px;
+    }
+    .active{
+        display: block;
+    }
+    .banner{
+        display: none;
+    }
+    .info-breakfast{
+        width: 100%;
+    }
+    .breakfast-items{
+        flex-direction: column;    
+    }
+    .breakfast-image{
+        width: unset;
+        margin-left: unset;
+        margin-top: 20px;
+    }
+    .breakfast-image img{
+        width: 300px;
+    }
+    .visit-flex{
+        flex-direction: column;
+    }
+    .direction{
+        display: none;
+    }
+    
+  }

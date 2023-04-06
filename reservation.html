@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/6b52140ca6.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <div class="logo">
+                <a href="./index.html"><h2>Atlas</h2>
+                <p>Celebrating 25 years</p></a>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="list">
+                
+                <li class="list-item"><a href="./menu.html">menu</a></li>
+                <li class="list-item"><a href="./reservation.html">Reservation</a></li>
+                <li class="list-item"><a href="./gifts.html">gift</a></li>
+                <li class="list-item"><a href="./contactus.html">contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main-image">
+        <div class="bg-image reservation-bg">
+            <img src="./images/nordwood-themes-Tmz8FThN_BE-unsplash.jpg" alt="main">
+        </div>
+       
+    </section>
+    <section class="reservation-home">
+        <div class="container">
+        <div class="reservation-heading">
+            <h1>Reservations</h1>
+            <h2>A NOTE ABOUT RESERVATIONS</h2>
+            <p>We do not take reservations in the traditional sense. We accommodate one group reservation 6 persons and leave the rest of the restaurant available for walk-in customers. </p>
+            <h3>Team Atlas looks forward to serving you soon.</h3>
+            <p>In deep appreciation for you supporting us and our local community.</p>
+        </div>
+        <div class="visit-heading">
+            <h1>VISIT US</h1>
+            <p>250 6th Street<br>
+                Courtenay, BC</p>
+                <h3>Hours</h3>
+                <p>Tuesday: 11:25 AM - 8:30 PM
+                    <br>Wednesday: 11:25 AM - 8:30 PM
+                    <br>Thursday: 11:25 AM - 8:30 PM 
+                    <br>Friday: 11:25 AM - 9:00 PM
+                    <br>Saturday: 8:25 AM - 9:00 PM
+                    <br>Sunday: 8:25 AM - 2:25 PM</p>
+        </div>
+    </div>
+    </section>
+    <section class="maps section-padding">
+        <div class="map-direction">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2581.087165029114!2d-124.99943238476526!3d49.69033134972229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5488138abe9b9bef%3A0xf0797a0b8d43627!2sAtlas%20Cafe!5e0!3m2!1sen!2sca!4v1680572092428!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-main">
+            <ul class="order">
+                <h4>Order</h4>
+                <li>Deals</li>
+                <li>pizza</li>
+                <li>Burger</li>
+                <li>Sides</li>
+            </ul>
+            <ul class="help">
+                <h4>Help & Service</h4>
+                <li>Location</li>
+                <li>Contact Us</li>
+                <li>Franchise</li>
+                <li>FAQs & Help</li>
+                <li>Gift Cards</li>
+                <li>Gift Careers</li>
+            </ul>
+            <ul class="Nutrition">
+                <h4>Nutrition</h4>
+                <li>Nutrition Information</li>
+                <li>Food Allergen & Sensitivity</li>
+                <li>Ingredient Listing</li>
+                <li>Gluten Free FAQ</li>
+                
+            </ul>
+            <ul class="Policies">
+                <h4>Privacy</h4>
+                <li>Terms & Conditions</li>
+                <li>Responsible disclosure</li>
+                <li>Cookies and Ads</li>
+                
+            </ul>
+        </div>
+    </footer>
+    <script>
+        const hamBurger =document.getElementsByClassName('hamburger')[0];
+        const navList=document.getElementsByClassName('list-item');
+        hamBurger.addEventListener('click',function(){
+         for(var i=0; i < navList.length; i++)
+         navList[i].classList.toggle('active');
+        });
+     </script>
+    </body>
+    </html>
